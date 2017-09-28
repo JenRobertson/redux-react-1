@@ -6,7 +6,7 @@ class Pet extends Component {
     return (
       <div className="Pet">
         <h1>{this.props.name}</h1>
-        <p>Hunger: {this.props.hunger}</p>
+        <p>weight: {this.props.weight}</p>
         <FeedButton onClick={this.props.onClick}/>
       </div>
     );

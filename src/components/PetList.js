@@ -2,7 +2,7 @@ import React from 'react';
 import Pet from './Pet';
 
 const PetList = ({ pets, onFeedButtonClick }) => (
-  <div>
+  <div className='PetList'>
   {pets.map(pet => (
     <Pet key={pet.id} {...pet} onClick={() => onFeedButtonClick(pet.id)}/>
   ))}

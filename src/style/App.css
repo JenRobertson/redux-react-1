@@ -1,9 +1,15 @@
 .App {
   text-align: center;
+  width: 600px;
+  background-color: #B8A0BE;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
 }
 
 .App-title {
   font-size: 1.5em;
+  float: right;
 }
 
 .App-intro {
@@ -27,8 +33,18 @@
 .AddPetBox{
   background-color: #8E8EE0;
   width: 300px;
-  height: 200px;
+  /* height: 200px; */
   float: left;
   padding: 20px;
   margin: 10px;
+  clear: right;
+}
+
+.PetList{
+  float: left;
+  clear: left;
+}
+body{
+  text-align: center;
+  margin: 0px;
 }

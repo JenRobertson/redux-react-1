@@ -6,12 +6,12 @@ const pets = (state = [], action) => {
         {
           id: 5,
           name: action.name,
-          hunger: 1
+          weight: 1
         }
       ]
     case 'FEED':
       return state.map(pet =>
-        (pet.id === action.id) ? {...pet, hunger: pet.hunger + 1} : pet )
+        (pet.id === action.id) ? {...pet, weight: pet.weight + 1} : pet )
     default:
       return state
   }

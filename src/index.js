@@ -10,17 +10,17 @@ const initialState = {
       {
         id: 0,
         name: 'frog',
-        hunger: 1
+        weight: 1
       },
       {
         id: 1,
         name: 'lizard',
-        hunger: 2
+        weight: 2
       },
       {
         id: 2,
         name: 'octopus',
-        hunger: 3
+        weight: 3
       }
     ]
   }
